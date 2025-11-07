@@ -21,14 +21,14 @@ body {
   line-height: 1.6;
 }
 
-.main-header {
+.header {
   text-align: center;
   padding: 2rem 1rem;
   background: linear-gradient(90deg, #111a2b, #0c1220);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.main-header h1 {
+.header h1 {
   font-size: 2rem;
   color: #fff;
 }
@@ -217,4 +217,13 @@ main h2 {
 .contact-form button:hover {
   opacity: 0.9;
   background-color: var(--muted);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: var(--muted);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: #0b1220;
 }
