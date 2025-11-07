@@ -117,6 +117,17 @@ body {
   color: var(--accent);
 }
 
+.education {
+  margin-top: 1.5rem;
+  text-align: left;
+  color: var(--muted);
+}
+
+.education h2 {
+  color: var(--accent);
+  margin-bottom: 0.8rem;
+}
+
 /* Main */
 main section {
   background: var(--card);
@@ -170,4 +181,40 @@ main h2 {
   padding: 1rem;
   border-radius: 10px;
   margin-bottom: 1rem;
+}
+
+.project h3 {
+  color: var(--accent);
+}
+
+/* Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+}
+
+.contact-form button {
+  background: var(--accent);
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.contact-form button:hover {
+  opacity: 0.9;
+  background-color: var(--muted);
 }
