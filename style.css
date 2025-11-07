@@ -144,3 +144,28 @@ main h2 {
   padding: 0.8rem;
   text-align: center;
 }
+
+.skills-table th {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  list-style: none;
+}
+
+.skills-list li {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: var(--muted);
+}
+
+.skills-list li {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: var(--muted);
+}
