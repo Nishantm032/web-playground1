@@ -214,6 +214,7 @@ main h2 {
 
 .travel-images img:hover {
   transform: scale(1.05);
+  border: 5px;
   opacity: 1;
   transition: 0.3s;
 }
